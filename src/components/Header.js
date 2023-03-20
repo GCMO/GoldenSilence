@@ -4,6 +4,7 @@ import { Container } from './styles/Container.styled';
 import { Flex } from './styles/Flex.styled';
 import { Button } from './styles/Button.styled';
 import { GiMountaintop } from "react-icons/gi";
+import { BsDownload } from "react-icons/bs";
 
 
 export default function Header() {
@@ -12,18 +13,21 @@ export default function Header() {
       <Container>
 
         <Nav>
-          <h1> <GiMountaintop /> GABE'S CODE TREKS </h1>
-          <a href="../public/images/GOCV.pdf" download>
-            <Button  bg='#ff4099' color='#fff'> Download CV </Button>
+          
+          <h1> <GiMountaintop style={{marginBottom:"-6px"}}/> <b> GOLDEN SILENCE YOGA</b> </h1>
+          <a href="./public/images/viniyasaflow.jpeg" download="ViniyasaFlow.pdf">
+            <Button  bg='#41a1cc' color='black'> SuryaNamaskar  
+              <BsDownload style={{ fontSize: "18px", color:"black", marginLeft:"10px", }}/>
+            </Button>
           </a>
           {/* <BrowserRouter>
               <Routes>
-                <Route path="/" element={<NavLink>Home</NavLink>} />
-                <Route path="/about" element={<NavLink>About</NavLink>} /> 
-                <Route path="/projects" element={<NavLink>Projects</NavLink>} />
-                <Route path="/contact" element={<NavLink>Contact</NavLink>} />
+              <Route path="/" element={<NavLink>Home</NavLink>} />
+              <Route path="/about" element={<NavLink>About</NavLink>} /> 
+              <Route path="/projects" element={<NavLink>Projects</NavLink>} />
+              <Route path="/contact" element={<NavLink>Contact</NavLink>} />
               </Routes>
-          </BrowserRouter> */}
+            </BrowserRouter> */}
         </Nav>
 
         <Flex>
@@ -31,11 +35,11 @@ export default function Header() {
             <h2>IN A FEW WORDS: </h2>
 
             <p>
-            <b>About:</b> Web Dev. and Graphic Designer with a deep love for UX/UI, Data Visualization and Photography. Currently @ SALT as a Full-Stack Developer. 
+            <b>ABOUT:</b> My journey began in 1997 when I started practicing meditation. I took a deep dive through the SiddhaYoga teachings and then acquired a BA & MA in Sanskrit and Oriental Philosophy. In 2014 after receiving a Yoga Alliance 200h certification, I began to teach Yoga, Meditation and Philosophy.   
             <br/>
-             <b>Next Steps:</b> Focus on more Python-based Data Science, ML & DL projects and bring innovative Data-Visualization solutions to Web Development. <br/>
-             <b>Interests:</b> Meditation, Acupuncture, Neuroscience, Biomorphism,  <br/>
-             <b>Hobbies:</b> Percussions, Trekking, Skiing, Yoga, Cycling.
+             <b>WHAT:</b> Multi-level Viniyasa Classes, Men's Yoga and Restorative Classes  <br/>
+             <b>WHEN:</b> <a href="https://datelist.io/calendars/2028/manage?date=2023-03-20&mode=calendar" >SEE SCHEDULE</a>   <br/>
+             
             </p>
 
             {/* <Button bg='#ff0099' color='#fff'>
@@ -43,7 +47,7 @@ export default function Header() {
             </Button> */}
           </div>
 
-          <Image src='/images/IMG_4241.png' alt='profile pic' />
+          <Image src='/images/profile.png' alt='profile pic' />
         </Flex>
       </Container>
     </StyledHeader>

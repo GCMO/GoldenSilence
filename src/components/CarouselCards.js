@@ -3,6 +3,7 @@ import { Image } from './styles/Header.styled';
 
 const CarouselCard = ({ item: { id, title, description, features, link, image } }) => {
   return (
+    <>
     <StyledCard layout={id % 2 === 1 && 'row-reverse'}> 
       <div>
         <h2>{title}</h2>
@@ -15,6 +16,7 @@ const CarouselCard = ({ item: { id, title, description, features, link, image } 
         <Image src={`/images/${image}`} alt='projects' />
       </div>
     </StyledCard>
+    </>
   )
 }
 

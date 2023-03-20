@@ -1,9 +1,9 @@
 const projects = [
   {
     id: 1,
-    title: 'Radio-Active',
-    description: 'Access more than 50.000 radio stations globally.',
-    features: 'Filter by state, randomized selection on refresh, save favorites, Secured Autherntication. Deployed on Heroku, features React, Styled Components, MUI on the Front-End, Node.js, Express, MongoDB & Mongoose on the Back-End.',
+    title: 'Meditation Basics: Samkhya-Yoga Darshana',
+    description: 'lorem ipsum',
+    features: 'lorem ipsum',
     link: 'https://radio-active1337.herokuapp.com/',
     image: 'RadioActive.gif' 
 },

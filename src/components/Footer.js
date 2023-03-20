@@ -21,7 +21,7 @@ export default function Footer() {
           <SocialIcons />
         </Flex>
 
-        <p>&copy; 2022 Gabe's Code Trecks. All rights reserved</p>
+        <p>&copy; 2023 Gabriele's Yoga. All rights reserved</p>
       </Container>
     </StyledFooter>
   )

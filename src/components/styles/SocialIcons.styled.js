@@ -23,8 +23,8 @@ export const StyledSocialIcons = styled.div`
     font-size: 30px;
     
     &:hover {
-      color: #ff0099;
-      border: 4px solid #ff0099;
+      color: #41a1cc;
+      border: 4px solid #41a1cc;
     }
   }
   

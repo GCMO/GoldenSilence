@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaSlack, FaMobile } from 'react-icons/fa'
+import { FaMobile, FaFacebook, FaMailBulk } from 'react-icons/fa'
 import { StyledSocialIcons } from './styles/SocialIcons.styled'
 
 export default function SocialIcons() {
@@ -10,20 +10,16 @@ export default function SocialIcons() {
         </a>
       </li>
       <li>
-        <a href='https://github.com/GCMO'>
-          <FaGithub />
+        <a href='https://facebook.com/profile.php?id=100069052229299'>
+          <FaFacebook />
         </a>
       </li>
       <li>
-        <a href='https://linkedin.com/in/gabrieleorlandi/'>
-          <FaLinkedin />
+        <a href='mailto:orlandigcm@gmail.com'>
+        <FaMailBulk />
         </a>
-      </li>
-      <li>
-        <a href='https://slack.com'>
-          <FaSlack/>
-        </a>
-      </li>
+      </li> 
     </StyledSocialIcons>
   )
 }
+
