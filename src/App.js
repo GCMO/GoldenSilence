@@ -23,7 +23,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       
-        <GlobalStyles />
+      <GlobalStyles />
         <Header />
 
           <Container className='container'>
@@ -51,7 +51,6 @@ function App() {
           </Container>
           
         <Footer />
-      
     </ThemeProvider>
   )
 }
