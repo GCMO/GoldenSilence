@@ -38,7 +38,7 @@ export default function Header() {
             <b>ABOUT:</b> My journey began in 1997 when I started practicing meditation. I took a deep dive through the SiddhaYoga teachings and then acquired a BA & MA in Sanskrit and Oriental Philosophy. In 2014 after receiving a Yoga Alliance 200h certification, I began to teach Yoga, Meditation and Philosophy.   
             <br/>
              <b>WHAT:</b> Multi-level Viniyasa Classes, Men's Yoga and Restorative Classes  <br/>
-             <b>WHEN:</b> <a href="https://datelist.io/calendars/2028/manage?date=2023-03-20&mode=calendar" >SEE SCHEDULE</a>   <br/>
+             <b>WHEN:</b> <a href="https://datelist.io/c/2VZVENWMLc?l=default" >SEE SCHEDULE</a>   <br/>
              
             </p>
 
