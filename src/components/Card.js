@@ -45,7 +45,7 @@ const Card = ({ item: { id, title, body, details, image, backTitle, backBody, ba
               <h2>{title}</h2>
             </div>
             <div>
-              <Image src={`/public/images/${image}`} alt="YogaAsanas" />
+              <Image src={`./public/images/${image}`} alt="YogaAsanas" />
             </div>
             </StyledCard>
           </motion.div>
