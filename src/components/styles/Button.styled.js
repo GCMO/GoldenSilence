@@ -26,7 +26,7 @@ export const SmButton = styled.button`
   font-weight: 700;
   margin-left: 70px;
   padding: 7px 25px;
-  background-color: ${({ bg }) => bg || '#fff'}; // these lines allow for inline changes and if not defined will default to white
+  background-color: ${({ bg }) => bg || '#fff'};
   color: ${({ color }) => color || '#333'};
 
   &:hover {

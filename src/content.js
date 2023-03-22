@@ -3,7 +3,7 @@ const content = [
     id: 1,
     title: 'VINYASA FLOW',
     body: "DESCRIPTION: Whether beginner or experienced, Vinyasa flow is a dynamic and energizing practice that will challenge you both physically and mentally. In this classes, you'll be guided to flow through a series of poses that are synchronized with your breath, building heat and strength in your body while also calming your mind. Vinyasa Yoga is a great way to boost your cardiovascular health, increase your flexibility, and reduce stress and anxiety. I provide modifications and variations to ensure that everyone can participate safely and comfortably. Come join me for a Vinyasa flow class!",
-    detilas:"",
+    details:"",
     image: 'cobra.png',
     backTitle: 'VINYASA FLOW',
     
@@ -21,8 +21,8 @@ const content = [
   {
     id: 3,
     title: 'RESTORATIVE YOGA',
-    body: "DESCRIPTION: In this classes, we'll use props to support our body in gentle, relaxing poses. These poses are held for several minutes at a time, allowing your body to fully relax and release tension. Restorative yoga is a great way to reduce stress and anxiety, improve your sleep, and boost your immune system. Open to all levels, modifications and variations will be recommended to ensure everyone's participation. The class will include guided meditation and relaxation.",
-    detilas:"",
+    body: "DESCRIPTION: In this classes, we'll use props to support our body in gentle, relaxing poses, that will be held for several minutes; allowing the body to fully relax and release tension. Restorative yoga is a great way to reduce stress, improve sleep and boost the immune system. Open to all levels, modifications and variations will be recommended to ensure everyone's participation. The class will include guided meditation and relaxation.",
+    details:"DETAILS: 60 min. ONLINE CLASS. Room Link will be provided uppon booking.",
     image: 'downdog.png',
     backTitle: 'RESTORATIVE YOGA',
   
@@ -30,8 +30,8 @@ const content = [
   {
     id: 4,
     title: 'MEDITATION SESSIONS',
-    body: "",
-    detilas:"",
+    body: " Regular FREE ONLINE guided Meditation. SIT INSIDE, before you dive back into the city life.  Every Sunday evening at 9.30 (GMT+1) - 30 minutes. ",
+    details:"Please book your spot by clicking on the button below and you will receive the room link.",
     image: 'DALL-E1.png',
     backTitle: 'MEDITATION SESSIONS',
    
@@ -40,7 +40,7 @@ const content = [
     id: 5,
     title: 'KIRTAN & MANTRA CHANTING',
     body: "",
-    detilas:"",
+    details:"",
     image: 'tabla.png',
     backTitle: 'KIRTAN & MANTRA CHANTING',
   

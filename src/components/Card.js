@@ -62,7 +62,9 @@ const Card = ({ item: { id, title, body, details, image, backTitle, backBody, ba
               <StyledCard {...styledCardProps}>
                 <div>
                   <h2>{backTitle}</h2>
-                  <SmButton bg='#41a1cc' color='white'>JOIN CLASS</SmButton>
+                  <a href="https://datelist.io/c/2VZVENWMLc?l=default">
+                    <SmButton bg='#41a1cc' color='white'>JOIN CLASS</SmButton>
+                  </a>
                 </div>
                 <div>
                   <p className='backText'>{body}</p>
