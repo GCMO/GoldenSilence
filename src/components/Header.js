@@ -35,7 +35,7 @@ export default function Header() {
             <h2>IN A FEW WORDS: </h2>
 
             <p>
-              <b>ABOUT:</b> My journey began in 1997 when I started practicing meditation. I took a deep dive through the SiddhaYoga teachings and then acquired a BA & MA in Sanskrit and Oriental Philosophy. In 2014 after receiving a Yoga Alliance 200h certification, I began to teach Yoga, Meditation and Philosophy Courses.   
+              <b>ABOUT:</b> My journey began in 1997 when I started practicing meditation. Shortly after I acquired a BA & MA in Sanskrit and Indian Philosophy. In 2014 after receiving a Yoga Alliance 200h certification, I began to teach Yoga, Meditation and Philosophy Courses.   
               <br/>
               <b>WHAT:</b> Multi-level Viniyasa Classes, Men's Yoga and Restorative Classes  
               <br/>
