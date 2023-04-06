@@ -43,7 +43,14 @@ const content = [
     details:"",
     image: 'tabla.png',
     backTitle: 'KIRTAN & MANTRA CHANTING',
-  
+  },
+  {
+    id: 6,
+    title: 'REFERENCES',
+    body: "Some of the Studios, Gyms and Businesses where I offer classes.",
+    details:"",
+    image: 'references.png',
+    backTitle: 'REFERENCES',
   },
 
 ]

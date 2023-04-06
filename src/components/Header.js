@@ -13,9 +13,9 @@ export default function Header() {
       <Container>
 
         <Nav>
-          
+        
           <h1> <GiMountaintop style={{marginBottom:"-6px"}}/> <b> GOLDEN SILENCE YOGA</b> </h1>
-          <a href="public/images/viniyasaflow.jpeg" download="ViniyasaFlow.pdf">
+          <a href="/viniyasaflow.jpeg" download >
             <Button  bg='#41a1cc' color='black'> SuryaNamaskar  
               <BsDownload style={{ fontSize: "18px", color:"black", marginLeft:"10px", }}/>
             </Button>
