@@ -6,7 +6,6 @@ const content = [
     details:"",
     image: 'cobra.png',
     backTitle: 'VINYASA FLOW',
-    
   },
   {
     id: 2,
@@ -15,8 +14,6 @@ const content = [
     details: "",
     image: 'vira2.png',
     backTitle: 'YOGA FOR MEN',
-
-    
   },
   {
     id: 3,
@@ -25,7 +22,6 @@ const content = [
     details:"DETAILS: 60 min. ONLINE CLASS. Room Link will be provided uppon booking.",
     image: 'downdog.png',
     backTitle: 'RESTORATIVE YOGA',
-  
   },
   {
     id: 4,
@@ -34,7 +30,6 @@ const content = [
     details:"Please book your spot by clicking on the button below and you will receive the room link.",
     image: 'DALL-E1.png',
     backTitle: 'MEDITATION SESSIONS',
-   
   },
   {
     id: 5,
