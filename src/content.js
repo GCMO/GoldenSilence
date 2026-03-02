@@ -2,7 +2,7 @@ const content = [
   {
     id: 1,
     title: 'VINYASA FLOW',
-    body: "DESCRIPTION: Whether beginner or experienced, Vinyasa flow is a dynamic and energizing practice that will challenge you both physically and mentally. In this classes, you'll be guided to flow through a series of poses that are synchronized with your breath, building heat and strength in your body while also calming your mind. Vinyasa Yoga is a great way to boost your cardiovascular health, increase your flexibility, and reduce stress and anxiety. I provide modifications and variations to ensure that everyone can participate safely and comfortably. Come join me for a Vinyasa flow class!",
+    body: "DESCRIPTION: Whether beginner or experienced, Vinyasa flow is a dynamic and energizing practice that will challenge you both physically and mentally. In this classes, you'll be guided to flow through a series of poses that are synchronized with your breath, building heat and strength in your body while also calming the nervous system. Vinyasa Yoga is a great way to boost cardiovascular health, increase flexibility, reduce stress and anxiety. I provide modifications and variations to ensure that everyone can participate safely and comfortably. Come, join me for a Vinyasa flow class!",
     details:"",
     image: 'cobra.png',
     backTitle: 'VINYASA FLOW',

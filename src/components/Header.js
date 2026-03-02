@@ -1,33 +1,37 @@
-import { StyledHeader, Nav, Image, } from './styles/Header.styled';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { StyledHeader, Nav, NavLink, Image, } from './styles/Header.styled';
+import { BrowserRouter, Link } from 'react-router-dom';
 import { Container } from './styles/Container.styled';
 import { Flex } from './styles/Flex.styled';
 import { Button } from './styles/Button.styled';
 import { GiMountaintop } from "react-icons/gi";
 import { BsDownload } from "react-icons/bs";
+import { ReactNavbar } from "react-responsive-animate-navbar";
 
 
 export default function Header() {
+
+  const Resources = () => <h1>RESOURCES</h1>
+  const Articles = () => <h1>ARTICLES</h1>
+  const Books = () => <h1>BOOKS</h1>
+
   return (
     <StyledHeader>
       <Container>
 
         <Nav>
-        
-          <h1> <GiMountaintop style={{marginBottom:"-6px"}}/> <b> GOLDEN SILENCE YOGA</b> </h1>
-          <a href="/viniyasaflow.jpeg" download >
-            <Button  bg='#41a1cc' color='black'> SuryaNamaskar  
-              <BsDownload style={{ fontSize: "18px", color:"black", marginLeft:"10px", }}/>
-            </Button>
-          </a>
-          {/* <BrowserRouter>
-              <Routes>
-              <Route path="/" element={<NavLink>Home</NavLink>} />
-              <Route path="/about" element={<NavLink>About</NavLink>} /> 
-              <Route path="/projects" element={<NavLink>Projects</NavLink>} />
-              <Route path="/contact" element={<NavLink>Contact</NavLink>} />
-              </Routes>
-            </BrowserRouter> */}
+            
+          <h1> <GiMountaintop style={{marginBottom:"-6px"}}/> 
+            <b> GOLDEN SILENCE</b>
+          </h1>
+              
+          <BrowserRouter>
+              <Link path="/projects"><NavLink>Resources</NavLink></Link>
+              <Link path="/Articles"><NavLink>Articles</NavLink></Link> 
+              <Link path="https://datelist.io/c/2VZVENWMLc?l=default"><NavLink>Schedule</NavLink></Link>
+          </BrowserRouter>
+
+         
+
         </Nav>
 
         <Flex>
@@ -42,6 +46,11 @@ export default function Header() {
               <b>WHEN:</b> 
               <b><a href="https://datelist.io/c/2VZVENWMLc?l=default" style={{color: "purple"}} > SEE SCHEDULE</a></b>   
               <br/>
+              {/* <a href="/viniyasaflow.jpeg" download >
+                <Button  bg='#41a1cc' color='black'> SuryaNamaskar  
+                  <BsDownload style={{ fontSize: "18px", color:"black", marginLeft:"10px", }}/>
+                </Button>
+              </a> */}
              
             </p>
 

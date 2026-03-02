@@ -16,6 +16,7 @@ export const Nav = styled.nav`
     font-size: 2.5rem;
     font-weight: 700;
     padding-bottom: 10px;
+    padding-right: 70px;
     /* font-style: italic; */
   }
 
@@ -27,24 +28,25 @@ export const Nav = styled.nav`
 `;
 
   // Navigation Links
-  // export const NavLink = styled.a`
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: space-between;
-  //   font-size: 1.5rem;
-  //   /* line-height: 32px; */
-  //   color: #ff0099;
-  //   transition: 0.4s ease;
-  //   &:hover {
-  //     color: #fff;
-  //     text-shadow: 0 0 10px #ff0099;
-  //     opacity: 1;
-  //     cursor: pointer;
-  // }
-  // @media (max-width: ${({ theme }) => theme.mobile}) {
-  //   flex-direction: column;
-  // }
-  // `;
+  export const NavLink = styled.a`
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 1.5rem;
+    /* line-height: 32px; */
+    color: hsl(46, 65%, 52%);
+    transition: 0.4s ease;
+    &:hover {
+      color: hsl(46, 25%, 52%);
+      text-shadow: 0 0 10px rgba(1500, 200, 0, .95);
+      /* text-shadow: 0 0 10px #ff0099; */
+      opacity: 1;
+      cursor: pointer;
+  }
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    flex-direction: column;
+  }
+  `;
 
 // export const Logo = styled.img`
 //   @media (max-width: ${({ theme }) => theme.mobile}) {

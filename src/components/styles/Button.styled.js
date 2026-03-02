@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 export const Button = styled.button`
-  border-radius: 50px;
+  border-radius: 30px;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, .25);
   cursor: pointer;
   font-size: 18px;
   font-weight: 500;
-  padding: 15px 30px;
+  padding: 8px 20px;
+  margin: 20px 0;
   background-color: ${({ bg }) => bg || '#fff'}; // these lines allow for inline changes and if not defined will default to white
   color: ${({ color }) => color || '#333'};
 
